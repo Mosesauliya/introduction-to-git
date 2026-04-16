@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 250px;
+}
+
+/* Pengaturan Foto */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Membuat gambar bulat */
+    object-fit: cover;  /* Agar foto tidak penyet */
+    border: 4px solid #007bff;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin: 5px 0;
+}
