@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  padding: 30px;
+  background-color: lightskyblue;
+}
+
+
+.foto {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15%;
+  margin-bottom: 10px;
+}
+
+
+.container {
+  width: 60%;          
+  max-width: 400px; 
+  border-radius: 15%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  line-height: 1.8;
+  font-weight: bold;
+  padding: 5%;
+  background-color: rgb(114, 161, 226);
+}
