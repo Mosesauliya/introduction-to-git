@@ -1,0 +1,88 @@
+@font-face {
+    font-family: nexa;
+    src: url(fonts/Nexa-Heavy.ttf);
+}
+
+@font-face {
+    font-family: creato;
+    src: url(fonts/CreatoDisplay-Bold.otf);
+}
+
+@import url('https://cdn-uicons.flaticon.com/4.0.0/uicons-brands/css/uicons-brands.css');
+
+body {
+    background: linear-gradient(45deg, #213448, #547792, #EAE0CF);
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.landing-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 10%;
+}
+
+.ikuti-button {
+    display: inline-flex;
+    margin: 10px 0;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 50px;
+    padding: 15px 50px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.ikuti-button:hover {
+    background-color: #213448;
+    color: white;
+    transform: scale(1.05);
+}
+
+.gambar img {
+    border-radius: 270px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0px 0px 8px black;
+}
+
+.gambar {
+     margin-left: 120px;
+}
+
+.teks {
+    font-family: creato;
+    color: antiquewhite;
+}
+
+.teks h1{
+    color: gold;
+    font-family: nexa;
+    text-shadow: 1px 0px 0px black;
+}
+
+.teks p {
+    text-shadow: 1px 0px 0px black;
+}
+
+.teks a.ikuti-button {
+    font-family: nexa;
+    display: inline-flex;  /* Pastikan ini ada di sini juga */
+    align-items: center;  
+    justify-content: center;
+    gap: 10px;
+    line-height: 1;    
+}
+
+.teks a.ikuti-button i {
+    display: flex;
+    align-items: center;
+    line-height: 0;      
+}
