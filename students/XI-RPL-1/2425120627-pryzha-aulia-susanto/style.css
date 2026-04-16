@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f3f0f8;
+  color: #333;
+  line-height: 1.6;
+  padding-top: 40px; /* Memberi jarak karena tidak ada header */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(134, 98, 146, 0.3);
+  transition: transform 0.3s ease;
+  border: 5px solid white;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Menjaga foto tidak gepeng */
+}
+
+.photo:hover {
+  transform: translateY(-10px);
+}
+
+.intro {
+  max-width: 500px;
+}
+
+.tagline {
+  display: inline-block;
+  padding: 4px 12px;
+  background: #866292;
+  color: white;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro h2 {
+  font-size: 38px;
+  color: #866292;
+  margin: 0 0 10px 0;
+  font-family: 'Playfair Display', serif;
+}
+
+.biodata {
+  max-width: 800px;
+  margin: 30px auto 60px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.biodata h3 {
+  margin-top: 0;
+  color: #866292;
+  border-bottom: 2px solid #dcafea;
+  padding-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.biodata table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.biodata td {
+  padding: 15px 10px;
+  border-bottom: 1px solid #f3f0f8;
+  font-size: 15px;
+}
+
+.biodata td:first-child {
+  font-weight: 600;
+  width: 35%;
+  color: #866292;
+}
